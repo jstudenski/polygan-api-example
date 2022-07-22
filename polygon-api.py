@@ -1,7 +1,8 @@
 import requests
+import config # delete this import
 
 parameters = {
-  "apiKey": "",
+  "apiKey": config.api_key, # replace this with yout API key
   "sort": "asc",
   "limit": "120",
   "adjusted": "true"
